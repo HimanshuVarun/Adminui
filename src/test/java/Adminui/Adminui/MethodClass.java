@@ -311,7 +311,7 @@ public class MethodClass
 			 {
 			   System.out.println("gateway_count");
 			   gateway_count=rs.getInt(1);
-			   System.out.println(" gateway_count   is :" + gateway_count);
+			   System.out.println(" gateway_count   is : " + gateway_count);
 			 }
 //			 rs=st.executeQuery(sql14);
 //			 while(rs.next())
