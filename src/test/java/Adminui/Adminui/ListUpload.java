@@ -16,7 +16,7 @@ public class ListUpload extends MethodClass
 		driver.findElement(By.name("list_condition_ui["+agent_id+"]")).click();
 		  //driver.findElement(By.xpath("/html/body/div[4]/table/tbody/tr/td[2]/div[3]/div/div/div/form/div[2]/table/tbody/tr[2]/td[4]/input")).click();
 		  driver.findElement(By.name("File_Name")).clear();
-		  driver.findElement(By.name("File_Name")).sendKeys("C:\\Users\\akshita tripathi\\eclipse-workspace\\Adminui\\TestData\\list.csv");
+		  driver.findElement(By.name("File_Name")).sendKeys("TestData/list.csv");
 		  System.out.println("browse the list");
 		  driver.findElement(By.name("Upload")).click();
 		  System.out.println("upload list");
