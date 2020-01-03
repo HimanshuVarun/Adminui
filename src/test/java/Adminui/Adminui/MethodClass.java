@@ -47,8 +47,8 @@ public class MethodClass
 	  PropertyConfigurator.configure("Log4j.properties");
 		//browser open
 		System.out.println("browser open method is start");
-		System.setProperty("webdriver.gecko.driver", "D:\\himanshu\\GeckoSetup\\firefoxdriver64_0.24.0\\geckodriver.exe");
-		// System.setProperty("webdriver.chrome.driver", "D:\\himanshu\\d\\himanshu\\browser setup\\ch\\chromedriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "D:\\himanshu\\GeckoSetup\\firefoxdriver64_0.24.0\\geckodriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "/usr/local/bin/geckodriver");
         //open firefox browser
 		System.out.println("open fire fox browser ");
 		driver=new FirefoxDriver();
